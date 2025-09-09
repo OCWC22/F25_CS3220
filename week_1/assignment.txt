@@ -1,0 +1,40 @@
+Purpose
+HTML is part of the foundation of what we will build later on. In this lab you will practice what you learned about HTML -- specifically, the declaration and structure of HTML 5, and some commonly used elements and attributes. You will also practice using a "text editor for developers" like Visual Studio Code.
+
+Skills
+The purpose of this assignment is to help you practice the following skills that are essential to your success in this course: 
+
+Create HTML 5 documents with correct declaration and syntax.
+Use absolute and relative URL to reference files at various locations.
+Use HTML 5 elements to create visual display based on requirements.
+Knowledge
+This assignment will also help you to become familiar with the following important content knowledge in this discipline: 
+
+HTML syntax and structure
+HTML block and inline elements
+HTML anchor and image elements
+Deploy and access web pages on a server
+Tasks
+Create a folder CS3220 for all of your lab activities.
+Define the structure of your lab. (remember you will be using this for all of your future labs)
+For example, folder for all the assets you will use, (e.g. images, css, javascript...)
+Create an HTML page index.html under your root directory
+This will be the welcome page that link to all of your lab works
+Something look like below image
+It should have a table to show a list of all the lab works, when user click on the link, it should bring the user to that page  
+Lab01-01.png
+Create a folder lab1 under your root directory
+Create an HTML page article.html inside lab1 folder that looks like what's shown in the following picture
+Lab01-02.png
+This HTML page is base on an article from https://www.health.com/apples-benefits-7643492. 
+This page has a title and subtitle
+The author name (i.e. Lindsey DeSoto) and the date of publish
+There are two hyperlinks inside the paragraph
+There are three listed items also contain hyperlinks
+To create this page, you can get the text, image, and URLs from the original article and then add appropriate HTML tags.
+Submission
+You will zip the entire CS3220 folder and submit in this page
+Grading Criteria
+(10pt) index.html visually resembles the screenshot provided and meets meet the specific requirements stated in the Tasks section.
+(30pt) article.html visually resembles the screenshot provided and meets meet the specific requirements stated in the Tasks section.
+(10pt) folder structure can easily identify different type of assets
