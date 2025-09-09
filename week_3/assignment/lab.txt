@@ -1,0 +1,70 @@
+Purpose
+In this lab you will practice using the CSS properties and the techniques learned in the lectures.
+
+Skills
+The purpose of this assignment is to help you practice the following skills that are essential to your success in this course: 
+
+Use appropriate CSS selectors to select HTML elements.
+Style HTML elements as specified by setting CSS properties.
+Implement basic web page layouts using CSS.
+Knowledge
+This assignment will also help you to become familiar with the following important content knowledge in this discipline: 
+
+CSS Pseudo-Class properties
+CSS Combine Selectors
+CSS border and spacing properties
+Tasks
+Create a new folder "lab3" under CS3220 folder for this lab
+Create a lab3.css for all the style you are going to use in this lab
+Create a articles.html, which look like the following
+
+Use the following tags ONLY to create your page
+<!DOCTYPE html>
+<html>
+<head>
+<meta>
+<title>
+<link>
+<body>
+<header>
+<div>
+<a>
+<br />
+<footer>
+<span>
+As you can see from the screen shot, there are three different sections
+Header
+The navigation menu of the site
+There are four links -- Home, Article, Forums, and Login
+Define a style that will automatically transform any characters in the navigation menu to uppercase
+Define a style of the hyper link in the navigation menu as follow
+unvisited link: color green
+visited link: color orange
+mouse over link: color hotpink
+selected link: color blue
+The navigation menu will be located at the right hand side with the same space apart from each other
+
+Body
+The main area to display the content
+Define the background color using gradient property: 120deg, #2980b9, #8e44ad
+There is a title at the top left hand corner
+There are some article content located at the center of the page (this content you can copy from Lab2 so you do not need to search again)
+The first row is the header of the table, you will need to bold all the text in this row
+The is a border to separate each row of the article 
+The article content are in table format, however, you CANNOT use <table>; you can only use <div> to create this table
+Use color yellowgreen for all the status of the hyper link in the article
+When user mouse over on the table, it will highlight the row in lightblue color (Note: the header row should not be highlighted)
+
+Footer
+A description of the page owner
+This footer should always stay at the bottom of the page no matter how user resizing the page
+The description should always stay at the center of the footer
+Update index.html under the root directory with the link to articles.html
+Submission
+You will zip the entire CS3220 folder and submit in this page
+Grading Criteria
+(5pt) Update the index.html under the root directory with the link to articles.html
+(5pt) For using single external CSS file for all the pages styles
+(10pt) For the menu bar
+(30pt) For the body
+(10pt) For the footer

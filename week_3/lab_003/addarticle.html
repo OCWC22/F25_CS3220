@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Add Article</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="top-nav">
+    <a href="articles.html">HOME</a>
+    <a href="#">ARTICLE</a>
+    <a href="#">FORUMS</a>
+    <a href="#">LOGIN</a>
+  </div>
+  <h1 class="page-title">Articles</h1>
+  <div class="page-content">
+    <div class="form-container">
+      <form class="article-form" action="#" method="post">
+        <div class="form-row">
+          <label for="title">Title</label>
+          <input id="title" name="title" type="text" required />
+        </div>
+
+        <div class="form-row">
+          <label for="author">Author</label>
+          <input id="author" name="author" type="text" required />
+        </div>
+
+        <div class="form-row">
+          <span class="label">Publish Date</span>
+          <div class="date-inline">
+            <label class="sr-only" for="day">Day</label>
+            <input id="day" name="day" type="number" min="1" max="31" placeholder="dd" />
+            <label class="sr-only" for="month">Month</label>
+            <select id="month" name="month">
+              <option>January</option><option>February</option><option>March</option>
+              <option>April</option><option>May</option><option>June</option>
+              <option>July</option><option>August</option><option>September</option>
+              <option>October</option><option>November</option><option>December</option>
+            </select>
+            <label class="sr-only" for="year">Year</label>
+            <input id="year" name="year" type="number" min="1900" max="2100" placeholder="yyyy" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="publish_date_2">Publish Date 2</label>
+          <input id="publish_date_2" name="publish_date_2" type="text" placeholder="mm/dd/yyyy (Extra Credit)" />
+        </div>
+
+        <div class="form-row">
+          <label for="link">Link</label>
+          <input id="link" name="link" type="url" placeholder="https://example.com/article" />
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-add">Add</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-name">Robert Lai</div>
+    <div class="copyright">Copyright © Robert Lai</div>
+  </div>
+</body>
+</html>

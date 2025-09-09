@@ -1,0 +1,76 @@
+/* Global layout to keep footer at bottom */
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: #eaeaea;
+}
+
+/* Header / Navigation */
+.site-header { background: #7a7a7a; border-bottom: 1px solid #555; }
+.nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 14px;
+  display: flex;
+  justify-content: flex-end; /* right side */
+  gap: 28px; /* equal spacing */
+  text-transform: uppercase; /* auto uppercase */
+}
+
+/* Navigation link states */
+.nav a:link { color: green; text-decoration: none; }
+.nav a:visited { color: orange; }
+.nav a:hover { color: hotpink; }
+.nav a:active { color: blue; }
+
+/* Main content area with gradient */
+.content {
+  flex: 1 0 auto; /* grow to push footer down */
+  padding: 14px;
+  background-image: linear-gradient(120deg, #2980b9, #8e44ad);
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+}
+
+/* Title at top-left */
+.heading span { font-weight: 700; color: #0b0b0b; }
+
+/* Center article content */
+.table { max-width: 900px; margin: 16px auto; border: 1px solid #555; border-radius: 3px; overflow: hidden; }
+
+/* Div-based table */
+.row {
+  display: grid;
+  grid-template-columns: 46% 22% 20% 12%;
+  align-items: start;
+}
+.row.header { background: rgba(0,0,0,0.0); border-bottom: 1px solid #555; }
+.row.header .cell span { font-weight: 700; }
+
+/* borders between rows */
+.row + .row { border-top: 1px solid #555; }
+
+.cell { padding: 8px 10px; color: #0b0b0b; }
+.cell.link { text-align: center; }
+.cell.author, .cell.date { text-align: center; }
+
+/* Article links must always be yellowgreen */
+.table a:link,
+.table a:visited,
+.table a:hover,
+.table a:active { color: yellowgreen; text-decoration: none; }
+
+/* Hover highlight for data rows only (exclude header) */
+.row:not(.header):hover { background: lightblue; }
+
+/* Footer pinned to bottom */
+.site-footer {
+  flex-shrink: 0;
+  background: #7a7a7a;
+  color: #fff;
+  border-top: 1px solid #555;
+}
+.footer-inner { max-width: 1100px; margin: 0 auto; text-align: center; padding: 12px 14px; }
