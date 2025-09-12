@@ -1,0 +1,130 @@
+/* General Body Style */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #8e44ad, #3498db);
+  color: white;
+}
+
+/* Login Page Styles */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.login-form-container {
+  background: rgba(44, 62, 80, 0.9);
+  padding: 3rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  color: white;
+}
+
+.login-form-container h2 {
+    font-weight: bold;
+}
+
+.login-form-container .form-control {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.login-form-container .form-control:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.login-form-container .btn-primary {
+    background-color: #3498db;
+    border: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.social-icons .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #2c3e50;
+  border: none;
+}
+
+.login-form-container a {
+    color: #3498db;
+}
+
+
+/* Articles Page Styles */
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    color: #000;
+}
+
+.navbar-custom {
+    background-color: transparent !important;
+}
+
+.navbar-custom .nav-link {
+    color: #2ecc71 !important;
+    font-weight: bold;
+}
+.navbar-custom .navbar-brand {
+    color: white !important;
+}
+
+
+.data-table {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+}
+
+.data-table thead th {
+  border-bottom: 2px solid #000;
+  background: transparent;
+}
+
+.data-table tbody td {
+  border: none;
+}
+
+.data-table tbody tr:hover {
+  background-color: lightblue;
+}
+
+.tbl-link {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.tbl-link:hover {
+  color: #2980b9;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
