@@ -1,0 +1,18 @@
+# Eclipse workspace metadata
+/.metadata/
+.project
+.classpath
+.settings/
+
+# Maven build artifacts
+/target/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+*.swp
+*.swo
+*~
