@@ -1,0 +1,92 @@
+/* General Body Style */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #87CEEB;
+  color: #000;
+  font-family: Arial, sans-serif;
+}
+
+/* Login Page Styles */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.login-form-container {
+  background: #87CEEB;
+  padding: 3rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 450px;
+  color: #000;
+}
+
+.login-form-container h2 {
+    font-weight: bold;
+    color: #000;
+}
+
+.login-form-container .form-control {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.login-form-container .form-control:focus {
+    background-color: #fff;
+    color: #000;
+    border-color: #3498db;
+}
+
+.login-form-container .btn-primary {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+.login-form-container .btn-primary:hover {
+    background-color: #f0f0f0;
+}
+
+.login-form-container label {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Error message styles */
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.error-banner {
+    background-color: #ffcccc;
+    color: #cc0000;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Logout message styles */
+.logout-message {
+    color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Bootstrap alert override for error */
+.alert-danger {
+    background-color: #ffcccc;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+}
