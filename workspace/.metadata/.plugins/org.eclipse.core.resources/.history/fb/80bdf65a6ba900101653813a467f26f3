@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="LoginSession">
+        <property name="context-root" value="LoginSession"/>
+        <property name="java-output-path" value="/LoginSession/target/classes"/>
+    </wb-module>
+</project-modules>

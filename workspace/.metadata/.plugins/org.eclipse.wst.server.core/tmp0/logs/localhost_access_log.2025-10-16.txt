@@ -1,0 +1,14 @@
+127.0.0.1 - - [16/Oct/2025:15:44:27 -0700] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [16/Oct/2025:16:10:59 -0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:11:02 -0700] "GET /LoginSession/ HTTP/1.1" 200 939
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:11:02 -0700] "GET /LoginSession/css/styles.css HTTP/1.1" 200 1349
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:11:02 -0700] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:12:27 -0700] "POST /LoginSession/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:12:27 -0700] "GET /LoginSession/download.jsp HTTP/1.1" 200 1884
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:12:27 -0700] "GET /LoginSession/images/sample1.jpg HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:12:27 -0700] "GET /LoginSession/images/sample2.jpg HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:12:27 -0700] "GET /LoginSession/images/sample3.jpg HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:12:45 -0700] "POST /LoginSession/logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:12:45 -0700] "GET /LoginSession/index.jsp HTTP/1.1" 200 939
+127.0.0.1 - - [16/Oct/2025:16:20:07 -0700] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [16/Oct/2025:16:21:40 -0700] "GET /LoginSession/ HTTP/1.1" 200 939
