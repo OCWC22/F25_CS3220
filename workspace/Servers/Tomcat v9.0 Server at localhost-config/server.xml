@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="webtest" path="/webtest" reloadable="true" source="org.eclipse.jst.jee.server:webtest"/><Context docBase="GuestBook" path="/GuestBook" reloadable="true" source="org.eclipse.jst.jee.server:GuestBook"/><Context docBase="HolidayCalendar" path="/HolidayCalendar" reloadable="true" source="org.eclipse.jst.jee.server:HolidayCalendar"/><Context docBase="SessionHandler" path="/SessionHandler" reloadable="true" source="org.eclipse.jst.jee.server:SessionHandler"/><Context docBase="LoginSession" path="/LoginSession" reloadable="true" source="org.eclipse.jst.jee.server:LoginSession"/></Host>
+      <Context docBase="webtest" path="/webtest" reloadable="true" source="org.eclipse.jst.jee.server:webtest"/><Context docBase="GuestBook" path="/GuestBook" reloadable="true" source="org.eclipse.jst.jee.server:GuestBook"/><Context docBase="HolidayCalendar" path="/HolidayCalendar" reloadable="true" source="org.eclipse.jst.jee.server:HolidayCalendar"/><Context docBase="SessionHandler" path="/SessionHandler" reloadable="true" source="org.eclipse.jst.jee.server:SessionHandler"/><Context docBase="LoginSession" path="/LoginSession" reloadable="true" source="org.eclipse.jst.jee.server:LoginSession"/><Context docBase="Midterm" path="/Midterm" reloadable="true" source="org.eclipse.jst.jee.server:Midterm"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/chen/Projects/F25_CS3220/Midterm"/>
 			<item value="/Users/chen/Projects/F25_CS3220/workspace/LoginSession"/>
 			<item value="/Users/chen/Projects/F25_CS3220/workspace/SessionHandler"/>
 			<item value="/Users/chen/Projects/F25_CS3220/workspace/HolidayCalendar"/>
