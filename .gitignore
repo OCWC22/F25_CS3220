@@ -1,1 +1,29 @@
+# Operating system cruft
 .DS_Store
+Thumbs.db
+
+# IDE / workspace metadata
+.vscode/
+.idea/
+.metadata/
+Servers/
+.classpath
+.project
+.settings/
+
+# Build outputs
+target/
+*/target/
+bin/
+*/bin/
+wtpwebapps/
+*.class
+
+# Logs
+*.log
+
+# Archives / exports
+*.zip
+*.war
+*.ear
+workspace/.metadata
