@@ -1,20 +1,24 @@
 package cs3220.model;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
-public class HolidayModel {
+public class HolidaysModel {
+    private static final DateTimeFormatter DISPLAY_FORMAT =
+            DateTimeFormatter.ofPattern("dd MMMM yyyy");
+
     private int id;
     private LocalDate holidayDate;
     private String holiday;
 
-    public HolidayModel() { }
+    public HolidaysModel() { }
 
-    public HolidayModel(String isoDate, String holiday) {
+    public HolidaysModel(String isoDate, String holiday) {
         this.holidayDate = LocalDate.parse(isoDate);
         this.holiday = holiday;
     }
 
-    public HolidayModel(LocalDate date, String holiday) {
+    public HolidaysModel(LocalDate date, String holiday) {
         this.holidayDate = date;
         this.holiday = holiday;
     }
@@ -27,4 +31,8 @@ public class HolidayModel {
 
     public String getHoliday() { return holiday; }
     public void setHoliday(String holiday) { this.holiday = holiday; }
+
+    public String getDisplayDate() {
+        return holidayDate == null ? "" : holidayDate.format(DISPLAY_FORMAT);
+    }
 }

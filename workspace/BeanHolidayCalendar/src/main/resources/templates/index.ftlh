@@ -21,7 +21,7 @@
     <tbody>
     <#list holidays as h>
       <tr>
-        <td>${h.holidayDate?string("dd MMMM yyyy")}</td>
+        <td>${h.displayDate}</td>
         <td>${h.holiday}</td>
         <td>
           <a href="/holidays/${h.id}/edit">Update</a> |
