@@ -3,6 +3,8 @@ package cs3220.model;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 @Entity
 @Table(name = "guestbook_messages")
@@ -51,6 +53,16 @@ public class GuestBookEntity {
 
     public void setDate(LocalDate date) {
         this.date = date;
+    }
+
+    // Returns formatted date string for display in templates
+    // Format: "07 November 2024"
+    public String getFormattedDate() {
+        if (date == null) {
+            return "";
+        }
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMMM yyyy", Locale.ENGLISH);
+        return date.format(formatter);
     }
 
     public UserEntity getUser() {
