@@ -1,0 +1,46 @@
+:root {
+    --cs-primary: #274690;
+    --cs-accent: #0091ad;
+    --cs-muted: #6c757d;
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+}
+
+.auth-shell h1 {
+    font-weight: 600;
+}
+
+.card-title {
+    color: var(--cs-primary);
+}
+
+.table thead th {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    color: var(--cs-muted);
+}
+
+.message-meta {
+    font-size: 0.85rem;
+    color: var(--cs-muted);
+}
+
+#message-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-edit {
+    color: var(--cs-primary);
+}
+
+.btn-delete {
+    color: #c1121f;
+}
+
+.status-banner {
+    transition: opacity 0.3s ease;
+}
